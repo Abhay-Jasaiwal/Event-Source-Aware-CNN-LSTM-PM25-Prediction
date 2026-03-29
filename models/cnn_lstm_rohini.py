@@ -8,7 +8,7 @@ from utils.metrics import evaluate
 from utils.plots import plot_loss, plot_prediction
 
 
-X_train, X_test, y_train, y_test = load_and_preprocess("data/Rohini_Dataset_model_ready.csv", "PM2.5")
+X_train, X_test, y_train, y_test = load_and_preprocess("data/Rohini_Final_2019_2022.csv", "PM2.5")
 
 print("Shape:", X_train.shape)
 

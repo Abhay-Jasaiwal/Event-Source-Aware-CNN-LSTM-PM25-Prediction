@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("data/Dwarka_Dataset_model_ready.csv")
+df = pd.read_csv("data/Dwarka_Final_2019_2022.csv")
 
 # Target
 target = "PM2.5"
