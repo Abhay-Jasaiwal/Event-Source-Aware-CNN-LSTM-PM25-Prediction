@@ -46,3 +46,7 @@ print("RMSE:", rmse, "MAE:", mae, "R2:", r2)
 
 plot_loss(history, "CNN-LSTM Loss (Dwarka)")
 plot_prediction(y_test, y_pred, "CNN-LSTM Prediction (Dwarka)")
+
+# Return model + test data
+def get_model_and_data():
+    return model, X_test, y_test

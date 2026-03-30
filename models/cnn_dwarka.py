@@ -46,3 +46,7 @@ plot_loss(history, "CNN Loss (Dwarka)")
 plot_prediction(y_test, y_pred, "CNN Prediction (Dwarka)")
 
 print("X_train shape:", X_train.shape)
+
+# Return model + test data
+def get_model_and_data():
+    return model, X_test, y_test
